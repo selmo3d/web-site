@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/*Formatação da barra de rolagem*/
+body::-webkit-scrollbar {
+  width: 12px;                    /* Largura da barra de rolagem */
+  background-color: #222;
+}
+
+body::-webkit-scrollbar-track {
+  background: #222;             /* Cor de fundo da barra de rolagem */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffcc00;    /* Cor do scroll (thumb) da barra de rolagem */
+  border-radius: 20px;            /* Arredondar o scroll (thumb) */
+  border: 3px solid #222;       /* Criar um espaço em volta do scroll */
+}

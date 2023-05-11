@@ -1,0 +1,11 @@
+.slick-prev:before {
+    color: #ffd11a;
+    font-size: 3rem;
+    margin-left: -30px;
+}
+
+.slick-next:before {
+    color: #ffd11a;
+    font-size: 3rem;
+    margin-right: 30px;
+}
